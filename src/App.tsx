@@ -7,7 +7,7 @@ function App() {
   return (
       
       <div className="relative p-0 h-screen flex flex-col">
-          <nav className=" container transition-all duration-3000 relative bg-sitered mx-auto p-3 rounded-lg min-w-[265px] h-150  ">
+          <nav className=" container transition-all duration-3000 relative bg-sitered mx-auto p-3 rounded-lg min-w-[265px] h-150 mt-3 ">
             <div className="flex items-center justify-between">
               {/* logo */}
               <div className="logo pt-2 rounded-lg mx-5">
