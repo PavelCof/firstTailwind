@@ -32,10 +32,10 @@ function App() {
 
           <section className="min-w-[331px] pb-5 top-10 flex-1 overflow-auto">
 
-            <div className="container flex flex-col px-4 mx-auto mt-5  space-y-12 md:space-y-0 md:flex-row">
+            <div className="container flex flex-col flex-wrap mx-auto mt-5 md:flex-row ">
 
               {/* топ пять */}
-                <div className="flex flex-col border-2 border-solid border-gray-light mx-5 rounded-lg p-7 space-y-5 md:w-1/2 " >
+                <div className="flex flex-col border-2 border-solid border-gray-light m-5 rounded-lg p-7 space-y-3 flex-auto " >
                       <div className="flex mb-3 items-center space-x-2 flex-row rounded-full bg-red2">
                             <div className="flex justify-center items-center w-9 h-9  text-white rounded-full md:py-1 bg-red1">5</div>
                             <h1 className="text-white md:text-white">Топ салатов</h1>
@@ -68,8 +68,24 @@ function App() {
                   </div>
                 </div>
 
-                <div className="flex flex-col border-2 border-solid border-gray-light mx-5 rounded-lg p-7 space-y-5 md:w-1/2" >
+                <div className="flex flex-col border-2 border-solid border-gray-light m-5 rounded-lg p-7 space-y-3 flex-auto" >
                     <h1 className="max-w-md text-2xl font-bold text-center md:text-3xl md:text-left">
+                    Салат Оливье
+                    </h1>
+                    <p className="max-w-md mt-3 text-center text-grey md:text-left">
+                    Салат Оливье - это классическое блюдо, которое обычно готовят на праздники в России и других странах бывшего СССР. Вот простой рецепт для приготовления этого салата:
+                    </p>
+                </div>
+                <div className="flex flex-col border-2 border-solid border-gray-light mx-5 my-5 rounded-lg p-7 flex-auto" >
+                    <h1 className="max-w-sm text-2xl font-bold text-center md:text-3xl md:text-left">
+                    Салат Оливье
+                    </h1>
+                    <p className="max-w-sm mt-3 text-center text-grey md:text-left">
+                    Салат Оливье - это классическое блюдо, которое обычно готовят на праздники в России и других странах бывшего СССР. Вот простой рецепт для приготовления этого салата:
+                    </p>
+                </div>
+                <div className="flex flex-col border-2 border-solid border-gray-light mx-5 my-5 rounded-lg p-7 flex-auto" >
+                    <h1 className="max-w-sm text-2xl font-bold text-center md:text-3xl md:text-left">
                     Салат Оливье
                     </h1>
                     <p className="max-w-sm mt-3 text-center text-grey md:text-left">
