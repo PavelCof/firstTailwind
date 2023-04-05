@@ -25,12 +25,12 @@ function App() {
                 <a href="#" className="text-gray-light hover:text-white">Мороженное</a>
                 <a href="#" className="text-gray-light hover:text-white">Напитки</a> 
               </div>
-              <a href="#" className="hidden w-300 lg:block p-3 px-6 text-sitered bg-gray-light rounded-full baseline hover:bg-white whitespace-nowrap">Выбрать блюдо</a>
+             { TailwingButton()}
             </div>
          
           </nav>
 
-          <section className="min-w-[331px] pb-5 top-10 flex-1 overflow-auto">
+          <section className="min-w-[331px] top-10 flex-1 overflow-auto">
 
             <div className="container flex flex-col flex-wrap mx-auto mt-5 md:flex-row ">
 
@@ -92,11 +92,26 @@ function App() {
                     Салат Оливье - это классическое блюдо, которое обычно готовят на праздники в России и других странах бывшего СССР. Вот простой рецепт для приготовления этого салата:
                     </p>
                 </div>
+                <div className="flex flex-col border-2 border-solid border-gray-light mx-5 my-5 rounded-lg p-7 flex-auto" >
+                    <h1 className="max-w-sm text-2xl font-bold text-center md:text-3xl md:text-left">
+                    Салат Оливье
+                    </h1>
+                    <p className="max-w-sm mt-3 text-center text-grey md:text-left">
+                    Салат Оливье - это классическое блюдо, которое обычно готовят на праздники в России и других странах бывшего СССР. Вот простой рецепт для приготовления этого салата:
+                    </p>
+                </div>
+                <div className="flex flex-col border-2 border-solid border-gray-light mx-5 my-5 rounded-lg p-7 flex-auto" >
+                    <h1 className="max-w-sm text-2xl font-bold text-center md:text-3xl md:text-left">
+                    Салат Оливье
+                    </h1>
+                    <p className="max-w-sm mt-3 text-center text-grey md:text-left">
+                    Салат Оливье - это классическое блюдо, которое обычно готовят на праздники в России и других странах бывшего СССР. Вот простой рецепт для приготовления этого салата:
+                    </p>
+                </div>
             </div>
-          </section>
-          <section>
-              <div className="  px-5 mx-auto mt-32 text-center pb-10 container ">
-                  <h2 className="text-4lx font-bold text-center  ">
+
+              <div className="  px-5 mx-auto mt-32 text-center   container ">
+                  <h2 className="text-2xl font-bold text-center w-full bg-gray-light rounded-lg py-5">
                     Лучшие блюда недели
                   </h2>
                   <div className="flex flex-col mt-24 md:flex-row md:space-x-6">
@@ -121,18 +136,22 @@ function App() {
                          Подготовьте указанные ингредиенты. Промойте огурец в воде, срежьте с овоща хвостики. Горошек при желании можно опустить в кипяток на пару минут, чтобы он не потемнел. С капусты счистите верхние листья и отрежьте необходимую часть для салата. Нарежьте ее лентами: крупными или тонкими — по вашему вкусу. Немного промассируйте капустную нарезку, чтобы она выпустила сок — так она станет мягче и салат будет приятнее есть. Выложите нарезку в салатник или глубокую миску, тарелку. Добавьте туда же зеленый горошек. Вместо горошка можно добавить нарезку редиса или шпината. Огурец нарежьте брусочками или полукольцами. Высыпьте к остальным ингредиента в салатнике. Обязательно попробуйте овощ на вкус — он может горчить. Ранние или тепличные огурцы не слишком горчат, но иногда случаются исключения из этого правила. Промойте свежую пряную зелень, измельчите ее и добавьте в емкость вместе с солью и растительным маслом. Аккуратно перемешайте все содержимое салатника. В этот момент блюдо можно сбрызнуть яблочным уксусом. Выложите весенний салат на тарелку и подайте к столу сразу же после приготовления, пока он максимально свежий. 
                         </p>
                     </div>
-                  </div>
+                </div>
+                <div>
 
+                </div>
 
-
-
-
-
-                  
               </div>
 
-
+              <div className="container flex flex-col items-center justify-between px-6 py-24 mx-auto space-y-12 md:py-12 md:flex-row md:space-y-0 rounded-lg bg-sitered">
+                    <h2 className=" text-5xl font-bold leading-tight  md:text-4xl md:max-w-xl md:text-left text-white">Выбери свое блюдо </h2>
+                    { TailwingButton("block")}
+              </div>
+              <footer className="container bg-gray-dark mx-auto">
+                
+              </footer>
           </section>
+
       </div>
 
 
@@ -140,9 +159,9 @@ function App() {
   );
 }
 
-function TailwingButton() {
+function TailwingButton(status:string="hidden") {
   return(
-    <button className='bg-blue text-white font-medium px-4 py-2 rounded-lg m-3 hover:bg-blue01 '>1</button>
+    <a href="#"className={`${status}  w-300 lg:block p-3 px-6 text-sitered bg-gray-light rounded-full baseline hover:bg-white whitespace-nowrap`}>Выбрать блюдо</a>
   )
 }
 
