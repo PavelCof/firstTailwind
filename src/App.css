@@ -38,7 +38,7 @@
 .open .hamburger-bottom{
   transform: rotate(-45deg) translateY(6px) translate(-6px);
 }
-#menu{
+/* #menu{
   display: none;
 }
 #menu-btn{
@@ -54,4 +54,4 @@
   #menu{
     display: flex;
   }
-}
+} */

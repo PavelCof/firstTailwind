@@ -33,7 +33,7 @@ export function NavMenus() {
          { StartButton()}
 
 
-                <div id="menu-btn" className={`hamburger ${showMenu ? "open":""}`} onClick={handleClick}>
+                <div id="menu-btn" className={`hamburger ${showMenu ? "open":""} lg:hidden`} onClick={handleClick}>
                     <span className="hamburger-top   "></span>
                     <span className="hamburger-middle  "></span>
                     <span className="hamburger-bottom   "></span>

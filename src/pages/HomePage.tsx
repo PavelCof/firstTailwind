@@ -1,5 +1,6 @@
+import React from 'react';
 import logo from './../imgs/lavygin.jpg';
-
+ 
 export function HomePage(){
     return (
         <>

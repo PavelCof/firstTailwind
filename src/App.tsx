@@ -18,7 +18,7 @@ function App() {
             { HomePage()}
    
             {FooterBlock() }
-          </section>
+          </section> 
 
       </div>
 

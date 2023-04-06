@@ -1,4 +1,4 @@
-export function StartButton(status:string="hidden") {
+export function StartButton(status="hidden") {
     return(
       <a href="#"className={`${status}  w-300 lg:block p-3 px-6 text-sitered bg-gray-light rounded-full baseline hover:bg-white whitespace-nowrap`}>Выбрать блюдо</a>
     )}
